@@ -10,6 +10,11 @@ Bueno, déjame decirte que enviar por correo electrónico el proyecto de ida y v
 
 Recuerde que es increíblemente útil realizar todas sus confirmaciones en **ramas temáticas** (denominadas descriptivamente). Las ramas ayudan a aislar los cambios no relacionados entre sí. Por lo tanto, cuando colabora con otros desarrolladores, asegúrese de crear una nueva rama que tenga un nombre descriptivo que describa los cambios que contiene.
 
+<div class="figure">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_1.png" alt="My caption"  />
+<p class="caption">My caption</p>
+</div>
+
 <p align="center">
   <img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_1.png"  width="700">
 </p>
