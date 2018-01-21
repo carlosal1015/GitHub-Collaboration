@@ -4,7 +4,7 @@
 
 Como desarrollador solitario, probablemente se sienta cómodo trabajando con un repositorio local. En esta primera lección, vamos a hablar de repositorios remotos e interactuar con estos repositorios remotos. Digamos que tienes un amigo, la llamaremos Laura, y un día ustedes dos estuvieron juntos y le mostraron en qué han estado trabajando. Ella tenía algunas ideas sobre las características que podría contribuir al proyecto. Pero no quiere darle su computadora para que haga estos cambios, quiere que trabaje en su computadora. Y, no desea tener que esperar a que ella agregue estas características, quiere seguir trabajando en el proyecto y luego fusionarse en sus cambios cuando haya terminado. Entonces, ¿cómo podemos hacer eso? Bueno, déjame decirte que enviar por correo electrónico el proyecto de ida y vuelta sería una pesadilla de mantenimiento después de dos correos electrónicos. Ya estás rastreando tu proyecto con Git, así que lo usaremos para administrar todo. Así que Laura trabajará en el proyecto en una sucursal específica y cualquier cambio que haga lo agregará a esa sucursal. Mientras trabaja en su sucursal, trabajará en el proyecto, pero en su propia sucursal específica. Y luego puedes unir estas ramas cuando obtengas la rama de Farrin.
 
->>💡 Utilice siempre ramas de tema
+>>:bulb: Utilice siempre ramas de tema
 
 Recuerde que es increíblemente útil realizar todas sus confirmaciones en ramas temáticas denominadas descriptivamente. Las ramas ayudan a aislar los cambios no relacionados entre sí. Por lo tanto, cuando colabora con otros desarrolladores, asegúrese de crear una nueva rama que tenga un nombre descriptivo que describa los cambios que contiene.
 
