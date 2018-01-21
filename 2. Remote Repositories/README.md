@@ -9,7 +9,7 @@ Como desarrollador solitario, probablemente se sienta cómodo trabajando con un 
 Recuerde que es increíblemente útil realizar todas sus confirmaciones en ramas temáticas denominadas descriptivamente. Las ramas ayudan a aislar los cambios no relacionados entre sí. Por lo tanto, cuando colabora con otros desarrolladores, asegúrese de crear una nueva rama que tenga un nombre descriptivo que describa los cambios que contiene.
 
 <p align="center">
-  <img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_1.png"  width="600">
+  <img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_1.png"  width="700">
 </p>
 
 ## ¿Qué es un repositorio remoto? ##
@@ -17,7 +17,7 @@ Recuerde que es increíblemente útil realizar todas sus confirmaciones en ramas
 Git es un sistema de control de versiones distribuidas, lo que significa que no hay un repositorio principal de información. Cada desarrollador tiene una copia del repositorio. Para que pueda tener una copia del repositorio (que incluye los commits publicados y el historial de versiones) y su amigo también puede tener una copia del mismo repositorio. Cada repositorio tiene exactamente la misma información que los demás, no hay un único repositorio que sea el principal. Hasta este punto, probablemente solo ha estado trabajando localmente en un repositorio local. Un repositorio remoto es el mismo repositorio de Git como el suyo, pero existe en otro lugar.
 
 <p align="center">
-  <img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_2.png"  width="600">
+  <img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_2.png"  width="700">
 </p>
 
 Se puede acceder a las formas de acceder a los Remote Remotes de varias maneras: con una ruta URL a un sistema de archivos. Aunque es posible crear un repositorio remoto en su sistema de archivos, es muy raro que se use. Con mucho, la forma más común de acceder a un repositorio remoto es a través de una URL a un repositorio que está fuera de la web. La forma en que podemos interactuar y controlar un repositorio remoto es a través del comando remoto de Git:
@@ -28,3 +28,7 @@ $ git remote
 Tampoco está limitado a un solo control remoto. ¡Puedes agregar tantos repositorios remotos como quieras!
 
 ¿Por qué múltiples mandos a distancia? ¿Por qué querrías tener múltiples repositorios remotos? Veremos esto más adelante pero brevemente, si está trabajando con múltiples desarrolladores, entonces es posible que desee obtener los cambios en los que están trabajando en sus ramas en su proyecto antes de fusionarlos en la rama principal. Es posible que desee hacer esto si desea probar su cambio antes de decidir implementar sus cambios. Otro ejemplo es si tienes un proyecto cuyo código está alojado en Github pero se implementa a través de Git a Heroku. Tendría un control remoto para el maestro y otro para el despliegue. Haga un control remoto Ahora que hemos aprendido sobre el propósito de los repositorios remotos, agreguemos un repositorio remoto a nuestro propio servidor local.
+
+<p align="center">
+  <img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_3.png"  width="700">
+</p>
