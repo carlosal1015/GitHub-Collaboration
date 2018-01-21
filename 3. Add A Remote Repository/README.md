@@ -232,6 +232,7 @@ Hay un par de cosas que notar sobre el comando que acaba de ejecutar en la líne
 
     1.  Recuerde que la palabra `origin` no está aquí, no es especial de ninguna manera.
     2.  Si desea cambiar esto a `repo-on-GitHub`, entonces (antes de ejecutar el comando) simplemente cambie la palabra "origin" por "repo-on-GitHub":
+    
     ```bash
     $ git remote add repo-on-GitHub https://github.com/richardkalehoff/RichardsFantasticProject.git
     ```
