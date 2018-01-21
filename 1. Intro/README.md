@@ -16,6 +16,6 @@
 </a>
 
 <p align="center">
-  <href="https://www.youtube.com/watch?v=SBUOhyXcR1Q">
-  <img src="http://img.youtube.com/vi/SBUOhyXcR1Q/maxresdefault.jpg"  width="600">
+  <href="https://www.youtube.com/watch?v=SBUOhyXcR1Q"/>
+  <img src="http://img.youtube.com/vi/SBUOhyXcR1Q/maxresdefault.jpg"  width="600"/>
 </p>
