@@ -1,4 +1,4 @@
-# GitHub-Collaboration #
+# GitHub Collaboration #
 
 ## Configuración de colaboración ##
 
@@ -12,3 +12,8 @@ Recuerde que es increíblemente útil realizar todas sus confirmaciones en ramas
 
 Git es un sistema de control de versiones distribuidas, lo que significa que no hay un repositorio principal de información. Cada desarrollador tiene una copia del repositorio. Para que pueda tener una copia del repositorio (que incluye los commits publicados y el historial de versiones) y su amigo también puede tener una copia del mismo repositorio. Cada repositorio tiene exactamente la misma información que los demás, no hay un único repositorio que sea el principal. Hasta este punto, probablemente solo ha estado trabajando localmente en un repositorio local. Un repositorio remoto es el mismo repositorio de Git como el suyo, pero existe en otro lugar.
 
+Se puede acceder a las formas de acceder a los Remote Remotes de varias maneras: con una ruta URL a un sistema de archivos. Aunque es posible crear un repositorio remoto en su sistema de archivos, es muy raro que se use. Con mucho, la forma más común de acceder a un repositorio remoto es a través de una URL a un repositorio que está fuera de la web. La forma en que podemos interactuar y controlar un repositorio remoto es a través del comando remoto de Git:
+
+``sh
+$ git remote
+``
