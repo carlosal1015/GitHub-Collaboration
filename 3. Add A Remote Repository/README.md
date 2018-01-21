@@ -57,9 +57,14 @@ Hemos hecho lo suficiente buscando ahora. ¡Hagamos algo activo y creemos nuestr
 
 Vamos a necesitar un proyecto de muestra para usar durante este curso para probar el trabajo con repositorios remotos, enviar actualizaciones al repositorio remoto y obtener cambios del repositorio remoto también.
 
-#### PREGUNTA 1 DE 5 ####
+#### Pregunta 1 de 5 ####
 
 ¡Si no tienes un proyecto que quieras usar, entonces puedes seguirme!
+
+- [] crear un nuevo directorio de tu proyecto con el nombre `my-travel-plans`
+- [] crear un archivo `README.md`
+- [] crear `index.html`
+- [] crear `app.css`
 
 #### Contenido del archivo README ####
 
@@ -163,7 +168,21 @@ h2 {
 
 En este punto, así es como se ve mi proyecto, pero recuerde que su proyecto puede ser lo que usted quiera, solo necesita asegurarse de tener un proyecto con algunas confirmaciones.
 
-Una aplicación web simple que muestra los destinos a los que quiero ir (Florida y París) se abrió en el navegador Chromium.
+<div class="figure">
+<p align="center">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/3_4.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+Una aplicación web simple que muestra los destinos a los que quiero ir (Florida y París) se abrió en el navegador Chromium.</p>
+</div>
+
+#### Pregunta 1 de 5 ####
+
+Asegurémonos de que esté listo para continuar. Marque cada uno de los siguientes:
+
+- [] Creé un nuevo directorio para mi proyecto con el nombre `my-travel-plans`
+- [] He convertido el proyecto en un repositorio de Git
+- [] He agregado al menos un archivo al proyecto
+- [] He confirmado el archivo con git commit (por ejemplo `Initial commit`)
 
 #### Alojamiento en GitHub ####
 
@@ -176,22 +195,42 @@ Si ya está familiarizado con GitHub y sabe cómo crear un repositorio sin inici
 
 Si todavía no tienes una cuenta, regístrate para obtener una en la página de unirse a GitHub. Hay diferentes tipos de cuentas de GitHub para las que puede suscribirse, pero el nivel gratuito es todo lo que necesitamos para este curso. Y una cuenta gratis es lo que la mayoría de la gente usa de todos modos. Una vez que haya creado su cuenta, inicie sesión en GitHub y estará en la página de inicio:
 
-
-Esto es lo que mi cuenta muestra justo después de iniciar sesión. Su información será diferente dependiendo de la cantidad de repositorios que tenga y de otros usuarios y repositorios que siga.
+<div class="figure">
+<p align="center">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/3_5.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+Esto es lo que mi cuenta muestra justo después de iniciar sesión. Su información será diferente dependiendo de la cantidad de repositorios que tenga y de otros usuarios y repositorios que siga.</p>
+</div>
 
 Al igual que todos los sitios web, GitHub actualiza su interfaz con bastante frecuencia, por lo que si lo que usted dice no se ve exactamente como en la imagen anterior, no se preocupe, las características importantes serán las mismas. Lo importante que debemos analizar en este momento es cómo crear un nuevo repositorio. En realidad, hay dos formas de hacerlo desde la página de inicio:
 
--   de la barra de navegación
--   el botón verde "nuevo repositorio" parte de la página en el lado derecho
+1.  de la barra de navegación
+2.  el botón verde "nuevo repositorio" parte de la página en el lado derecho
 
-GitHub tiene dos ubicaciones donde puedes crear un nuevo repositorio. El icono más ubicado en el encabezado de la página y el botón "Nuevo repositorio" en el medio de la página.
-
+<div class="figure">
+<p align="center">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/3_6.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+GitHub tiene dos ubicaciones donde puedes crear un nuevo repositorio. El icono más ubicado en el encabezado de la página y el botón "Nuevo repositorio" en el medio de la página.</p>
+</div>
 
 Utilizo el botón en la barra de navegación porque la barra de navegación está disponible en cada página, lo que facilita el acceso al nuevo enlace de repositorio.
 
+<div class="figure">
+<p align="center">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/3_7.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+Al hacer clic en el ícono más en el encabezado de GitHub se muestra un menú desplegable de opciones. Una opción es el enlace "Nuevo repositorio".</p>
+</div>
+
 En el menú desplegable, el enlace `new repository` lo lleva a la página de creación del repositorio. Solo necesitamos completar un campo de esta forma: el campo de nombre del repositorio.
 
-GitHub crea una nueva página de repositorio. El único campo obligatorio es el campo de `Repository name`.
+<div class="figure">
+<p align="center">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/3_8.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+GitHub crea una nueva página de repositorio. El único campo obligatorio es el campo de `Repository name`.</p>
+</div>
 
 Normalmente, desea utilizar el nombre de su proyecto como el nombre del repositorio. Crear un repositorio, modificarlo más tarde o eliminarlo es relativamente fácil, así que no sienta que tiene que obtener el nombre perfecto aquí en esta página. Voy a crear un repositorio llamado "my-travel-plans" que es el mismo nombre que el proyecto de muestra que creé.
 
@@ -213,7 +252,7 @@ Así que solo asegúrate de dejar este campo sin marcar, ¡y estarás listo para
 
 Recuerde que el comando `git remote` se usa para crear y administrar repositorios remotos. Así que usaré el siguiente comando para crear una conexión desde mi repositorio local al repositorio remoto que acabo de crear en mi cuenta de GitHub:
 
-```
+```bash
 $ git remote add origin https://github.com/richardkalehoff/RichardsFantasticProject.git
 ```
 #### :warning: Remotos y Permisos :warning: ####
@@ -225,6 +264,28 @@ Advertencia: es importante que use la URL para el nuevo repositorio que creó en
 -   https://github.com/owen/my-travel-plans.git
 -   https://github.com/finn/my-travel-plans.git
 
+#### Pregunta 3 de 5 ####
+
+¿De quién es el repositorio clonado en el siguiente comando?
+
+```bash
+$ git clone https://github.com/owen/my-travel-plans.git
+```
+
+- [] Kagure
+- [] Jack
+- [] Owen
+- [] Finn
+
+#### Pregunta 4 de 5 ####
+
+Jonathan y Allison están trabajando juntos en un proyecto. Jonathan crea un proyecto en GitHub en la URL `https://github.com/docsrus/brain-mapping.git`.
+
+Si Allison ejecuta `git clone https://github.com/docsrus/brain-mapping.git`, ¿tendrá ella permiso para realizar cambios en el proyecto de Jonathan en GitHub?
+
+- [] Sí
+- [] No
+
 Hay un par de cosas que notar sobre el comando que acaba de ejecutar en la línea de comando:
 
 1.  primero, este comando tiene el sub comando `add`
@@ -232,19 +293,32 @@ Hay un par de cosas que notar sobre el comando que acaba de ejecutar en la líne
 
     1.  Recuerde que la palabra `origin` no está aquí, no es especial de ninguna manera.
     2.  Si desea cambiar esto a `repo-on-GitHub`, entonces (antes de ejecutar el comando) simplemente cambie la palabra "origin" por "repo-on-GitHub":
-    
+
     ```bash
     $ git remote add repo-on-GitHub https://github.com/richardkalehoff/RichardsFantasticProject.git
     ```
-    
-    3.  En tercer lugar, se agrega la ruta completa al repositorio (es decir, la URL al repositorio remoto en la web)
- 
- Ahora usaré `git remote -v` para verificar que he agregado el repositorio remoto correctamente :
-    ```En tercer lugar, se agrega la ruta completa al repositorio (es decir, la URL al repositorio remoto en la web) Ahora usaré git remote -v para verificar que he agregado el repositorio remoto correctamente:
 
-`git remote add` se usó para crear un nombre corto de `origin` que apunta al proyecto en GitHub. La ejecución de `git remote -v` muestra tanto el nombre corto como la URL.
+    3.  En tercer lugar, se agrega la ruta completa al repositorio (es decir, la URL al repositorio remoto en la web)
+
+Ahora usaré `git remote -v` para verificar que he agregado el repositorio remoto correctamente :
+
+<div class="figure">
+<p align="center">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/3_9.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+`git remote add` se usó para crear un nombre corto de `origin` que apunta al proyecto en GitHub. La ejecución de `git remote -v` muestra tanto el nombre corto como la URL.</p>
+</div>
 
 ¡Fantástico! Todo se ve bien. Agregué un enlace a mi repositorio remoto con el comando `git remote add`, y luego verifiqué que todo se veía correcto con `git remote -v`.
+
+#### Pregunta 5 de 5 ####
+
+Asegurémonos de estar en la misma página. Asegúrese de que puede responder a todos estos:
+
+- [] Creé mi repositorio remoto en GitHub
+- []
+- []
+
 
 #### Resumen ####
 
