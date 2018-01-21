@@ -65,15 +65,16 @@ Vamos a necesitar un proyecto de muestra para usar durante este curso para proba
 
 # Travel Destinations
 
-``# Destinos de viaje
+```
+# Destinos de viaje
 Una aplicación simple para realizar un seguimiento de los destinos que me gustaría visitar.
-``
+```
 
 #### Contenido de archivos HTML ####
 
 Agregue el siguiente contenido al archivo index.html:
 
-``html
+```html
 <!doctype html>
 <html lang="en">
 <head>
@@ -98,4 +99,4 @@ Agregue el siguiente contenido al archivo index.html:
 
 </body>
 </html>
-``
+```
