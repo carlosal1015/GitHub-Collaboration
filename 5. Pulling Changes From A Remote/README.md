@@ -34,7 +34,7 @@ h2 {
 
 [![Video](http://img.youtube.com/vi/UBYxcTg6VLU/maxresdefault.jpg)](https://www.youtube.com/watch?v=UBYxcTg6VLU)
 
-> ### :warning: Prefiere trabajar a nivel local :warning: ###
+> ### :warning: Prefiera trabajar a nivel local :warning: ###
 > Debido a que GitHub tiene una interfaz web, te permite agregar confirmaciones manualmente a través de su interfaz. Pero solo porque puedas hacer algo, no significa que debas hacerlo. Hice la demostración de hacer estos cambios de esta manera para poder simular que las confirmaciones están en el repositorio remoto pero no en el repositorio local. Pero le recomiendo que siempre trabaje de forma local en un proyecto y luego inserte esos cambios en el repositorio remoto.
 
 ### Recuperar confirmaciones remotas ###
@@ -45,5 +45,15 @@ Ahora comparemos nuestro repositorio local y nuestro repositorio remoto. Solo te
 <p align="center">
 <img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/5_1.png" width="700" alt="My caption"/></p>
 <p align="center" class="caption">
+Nuestro repositorio local solo tiene tres compromisos.</p>
+</div>
+
+Si bien hay cuatro commits en el repositorio remoto:
+
+<div class="figure">
+<p align="center">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/5_2.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+El repositorio remoto en GitHub tiene cuatro commits. Los tres de nuestro repositorio local y el que agregamos manualmente en GitHub.
 </p>
 </div>
