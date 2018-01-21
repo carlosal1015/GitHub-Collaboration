@@ -53,12 +53,42 @@ La aplicación del terminal que muestra el comando `git push`. Solicita mi nombr
 
 Aquí un par de cosas para notar:
 
-Dependiendo de cómo haya configurado GitHub y la URL remota que se está utilizando, es posible que deba ingresar su nombre de usuario y contraseña. esto sucederá si usa la versión HTTP del control remoto (en lugar de la versión ssh) Si ha configurado GitHub para usar el protocolo SSH y lo ha proporcionado con su clave SSH, entonces no necesita preocuparse por seguir este paso. Consulte la página de Conexión a GitHub con la documentación de SSH si está interesado en usar SSH con GitHub. Si tiene que ingresar su nombre de usuario y contraseña, su nombre de usuario aparecerá después de escribir pero su contraseña no lo hará. Así que sigue escribiendo tu contraseña y presiona intro cuando hayas terminado. Si encuentra algún error con su contraseña, no se preocupe, solo le pedirá que la ingrese de nuevo Git comprime algo para hacerlo más pequeño y luego lo envía al control remoto Se crea una nueva rama: en la parte inferior dice [nueva rama] y luego master -> master Ahora veamos GitHub:
+- Dependiendo de cómo haya configurado GitHub y la URL remota que se está utilizando, es posible que deba ingresar su nombre de usuario y contraseña.
+  - esto sucederá si usa la versión HTTP del control remoto (en lugar de la versión ssh)
+  - Si ha configurado GitHub para usar el protocolo SSH y lo ha proporcionado con su clave SSH, entonces no necesita preocuparse por seguir este paso. Consulte la página de Conexión a GitHub con la documentación de SSH si está interesado en usar SSH con GitHub.
+- Si tiene que ingresar su nombre de usuario y contraseña, su nombre de usuario aparecerá después de escribir pero su contraseña no lo hará. Así que sigue escribiendo tu contraseña y presiona intro cuando hayas terminado.
+  - Si encuentra algún error con su contraseña, no se preocupe, solo le pedirá que la ingrese de nuevo
+- Git comprime algo para hacerlo más pequeño y luego lo envía al control remoto
+- Se crea una nueva rama: en la parte inferior dice `[nueva rama]` y luego `master -> master`
+
+Ahora veamos GitHub:
 
 <div class="figure">
 <p align="center">
 <img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/4_4.png" width="700" alt="My caption"/></p>
 <p align="center" class="caption">
-</p>
+¡Todo mi proyecto está en GitHub!</p>
 </div>
 
+Nuestro proyecto está en GitHub: ¡qué increíble y fácil fue eso! Una característica interesante que GitHub hace es que muestra automáticamente el contenido del archivo README que puede ser extremadamente útil.
+
+GitHub también muestra muchos detalles sobre nuestro repositorio. Ahora mismo está mostrando que hay:
+
+- tres confirmaciones 
+- una rama
+- un colaborador
+
+<div class="figure">
+<p align="center">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/4_5.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+La página principal del proyecto en GitHub muestra información sobre el repositorio.</p>
+</div>
+
+Ahora, antes de seguir adelante, revisemos el repositorio local para ver cómo cambió después de presionar.
+Ejecute el siguiente comando:
+
+```bash
+$ git log --oneline --graph --decorate --todo
+```
+Importante: asegúrese de incluir el `--decorate` y -`-all` flags
