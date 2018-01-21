@@ -93,7 +93,7 @@ Ejecute el siguiente comando:
 $ git log --oneline --graph --decorate --todo
 ```
 
-*Importante*: asegúrese de incluir el `--decorate` y -`-all` flags
+*Importante: asegúrese de incluir las banderas `--decorate` y -`-all`*.
 
 <div class="figure">
 <p align="center">
@@ -102,3 +102,6 @@ $ git log --oneline --graph --decorate --todo
 La aplicación de terminal que muestra los resultados de ejecutar `git log --oneline --graph --decorate --all`. La nueva rama de seguimiento de origen/maestro ahora existe</p>
 </div>
 
+¡Ahora tenemos un nuevo marcador en la salida! Este marcador es origin / master y se denomina ramal de seguimiento. El nombre de una rama de seguimiento incluye el nombre corto del repositorio remoto, así como el nombre de la sucursal. Por lo tanto, el origin/master de la rama de seguimiento nos dice que el origen remoto tiene una rama maestra que apunta a confirmar 9b7d28f (e incluye todas las confirmaciones antes de 9b7d28f).
+
+Esto es realmente útil porque esto significa que podemos rastrear la información del Repositorio remoto aquí mismo en nuestro local. Una cosa muy importante que debe saber es que esta rama de rastreo de origen / maestro no es una representación en vivo de dónde existe la rama en el repositorio remoto. Si un cambio se realiza en el repositorio remoto no por nosotros, sino por otra persona, la rama de seguimiento de origen / maestro en nuestro repositorio local no se moverá. Tenemos que decirle que busque las actualizaciones y luego se moverá. Veremos cómo hacer esto en la siguiente sección.
