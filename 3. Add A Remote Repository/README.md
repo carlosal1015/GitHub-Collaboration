@@ -53,7 +53,7 @@ Observaremos tanto `fetch` como `push` en las próximas secciones.
 
 Hemos hecho lo suficiente buscando ahora. ¡Hagamos algo activo y creemos nuestro propio proyecto simple y enviémoslo a un repositorio remoto!
 
-## Crear un proyecto simple ##
+### Crear un proyecto simple ###
 
 Vamos a necesitar un proyecto de muestra para usar durante este curso para probar el trabajo con repositorios remotos, enviar actualizaciones al repositorio remoto y obtener cambios del repositorio remoto también.
 
@@ -199,6 +199,6 @@ Está bien dejar la descripción vacía por el momento (aunque puede proporciona
 
 También voy a dejar sin marcar la opción "Inicializar este repositorio con el archivo README" porque no quiero que GitHub agregue un archivo README para mí.
 
-## :copyleft: No inicializar con un README ##
+## :warning: No inicializar con un README :warning: ##
 
 Asegúrese de dejar desactivada la opción "Inicializar este repositorio con el archivo README". Proporcionaremos nuestro propio archivo README, por lo que no queremos que GitHub proporcione uno automáticamente. Además, si permitimos que GitHub genere automáticamente un nuevo archivo README, entonces no se nos proporcionarán los comandos de configuración para ejecutar en el terminal. Todavía es posible obtener esa información, pero estará oculta. Así que solo asegúrate de dejar este campo sin marcar, ¡y estarás listo para empezar! ¡Ahora solo hizo clic en ese gran botón "Crear repositorio" para crear su repositorio remoto!
