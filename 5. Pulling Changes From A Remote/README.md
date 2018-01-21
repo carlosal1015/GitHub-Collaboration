@@ -34,6 +34,10 @@ h2 {
 
 [![Video](http://img.youtube.com/vi/UBYxcTg6VLU/maxresdefault.jpg)](https://www.youtube.com/watch?v=UBYxcTg6VLU)
 
-### :warning: Prefiere trabajar a nivel local :warning: ###
+> ### :warning: Prefiere trabajar a nivel local :warning: ###
+> Debido a que GitHub tiene una interfaz web, te permite agregar confirmaciones manualmente a través de su interfaz. Pero solo porque puedas hacer algo, no significa que debas hacerlo. Hice la demostración de hacer estos cambios de esta manera para poder simular que las confirmaciones están en el repositorio remoto pero no en el repositorio local. Pero le recomiendo que siempre trabaje de forma local en un proyecto y luego inserte esos cambios en el repositorio remoto.
 
-Debido a que GitHub tiene una interfaz web, te permite agregar confirmaciones manualmente a través de su interfaz. Pero solo porque puedas hacer algo, no significa que debas hacerlo. Hice la demostración de hacer estos cambios de esta manera para poder simular que las confirmaciones están en el repositorio remoto pero no en el repositorio local. Pero le recomiendo que siempre trabaje de forma local en un proyecto y luego inserte esos cambios en el repositorio remoto.
+### Recuperar confirmaciones remotas ###
+
+Ahora comparemos nuestro repositorio local y nuestro repositorio remoto. Solo tenemos tres confirmaciones en nuestro repositorio local:
+
