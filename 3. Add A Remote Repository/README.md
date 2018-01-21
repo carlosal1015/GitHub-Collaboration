@@ -47,3 +47,6 @@ Si desea ver la ruta completa al repositorio remoto, entonces usted tiene que ha
 La aplicación Terminal que ejecuta el comando `git remote`. La salida incluye el nombre corto y la URL completa a la que se refiere.</p>
 </div>
 
+Aquí puede ver que si se usa la palabra `origin`, lo que realmente se usa es la ruta a `https://github.com/GoogleChrome/lighthouse.git`. También puede parecer un poco extraño que ahora haya dos controles remotos, ambos de "origin" y que van a la misma URL. La única diferencia está justo al final: la parte `(fetch)` y la parte `(push)`.
+
+Observaremos tanto la búsqueda como la inserción en las próximas secciones. Hemos hecho lo suficiente buscando ahora. ¡Hagamos algo activo y creemos nuestro propio proyecto simple y enviémoslo a un repositorio remoto! Cree un proyecto simple Vamos a necesitar un proyecto de muestra para usar durante este curso para probar el trabajo con repositorios remotos, enviar actualizaciones al repositorio remoto y obtener cambios del repositorio remoto también.
