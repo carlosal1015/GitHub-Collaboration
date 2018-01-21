@@ -230,12 +230,18 @@ Hay un par de cosas que notar sobre el comando que acaba de ejecutar en la líne
 2.  la palabra `origin` que se usa; esto es establecer el nombre corto que discutimos anteriormente.
     1.  Recuerde que la palabra `origin` no está aquí, no es especial de ninguna manera.
     2.  Si desea cambiar esto a `repo-on-GitHub`, entonces (antes de ejecutar el comando) simplemente cambie la palabra "origin" por "repo-on-GitHub":
+    
     ```$
     git remote add repo-on-GitHub
     https://github.com/richardkalehoff/RichardsFantasticProject.git
     ```
+    
     3.  En tercer lugar, se agrega la ruta completa al repositorio (es decir, la URL al repositorio remoto en la web)
  
  Ahora usaré `git remote -v` para verificar que he agregado el repositorio remoto correctamente :
     ```En tercer lugar, se agrega la ruta completa al repositorio (es decir, la URL al repositorio remoto en la web) Ahora usaré git remote -v para verificar que he agregado el repositorio remoto correctamente:
+
+`git remote add` se usó para crear un nombre corto de `origin` que apunta al proyecto en GitHub. La ejecución de `git remote -v` muestra tanto el nombre corto como la URL.
+
+¡Fantástico! Todo se ve bien. Agregué un enlace a mi repositorio remoto con el comando `git remote add`, y luego verifiqué que todo se veía correcto con `git remote -v`.
 
