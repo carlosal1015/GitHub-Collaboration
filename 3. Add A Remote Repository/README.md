@@ -1,4 +1,4 @@
-## The Git Remote Command ##
+## El comando remoto de Git ##
 
 El comando `git remote` te permitirá administrar e interactuar con repositorios remotos.
 
