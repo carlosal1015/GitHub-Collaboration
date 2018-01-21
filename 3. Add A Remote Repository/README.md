@@ -226,8 +226,11 @@ Advertencia: es importante que use la URL para el nuevo repositorio que creó en
 -   https://github.com/finn/my-travel-plans.git
 
 Hay un par de cosas que notar sobre el comando que acaba de ejecutar en la línea de comando:
+
 1.  primero, este comando tiene el sub comando `add`
+
 2.  la palabra `origin` que se usa; esto es establecer el nombre corto que discutimos anteriormente.
+
     1.  Recuerde que la palabra `origin` no está aquí, no es especial de ninguna manera.
     2.  Si desea cambiar esto a `repo-on-GitHub`, entonces (antes de ejecutar el comando) simplemente cambie la palabra "origin" por "repo-on-GitHub":
     
