@@ -63,7 +63,7 @@ Vamos a necesitar un proyecto de muestra para usar durante este curso para proba
 
 #### Contenido del archivo README ####
 
-```
+```markdown
 # Destinos de viaje
 Una aplicación simple para realizar un seguimiento de los destinos que me gustaría visitar.
 ```
