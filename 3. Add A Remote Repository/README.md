@@ -211,3 +211,16 @@ Así que solo asegúrate de dejar este campo sin marcar, ¡y estarás listo para
 
 [![Video](http://img.youtube.com/vi/myuGLZLYpYY/maxresdefault.jpg)](https://www.youtube.com/watch?v=myuGLZLYpYY)
 
+Recuerde que el comando `git remote` se usa para crear y administrar repositorios remotos. Así que usaré el siguiente comando para crear una conexión desde mi repositorio local al repositorio remoto que acabo de crear en mi cuenta de GitHub:
+
+```
+$ git remote add origin https://github.com/richardkalehoff/RichardsFantasticProject.git
+```
+#### :warning: Remotos y Permisos :warning: ####
+
+Advertencia: es importante que use la URL para el nuevo repositorio que creó en su perfil de GitHub. No use el de arriba porque eso es para el proyecto que acabo de crear en mi cuenta. Como este proyecto está en mi cuenta, no tiene acceso para enviarle cambios. Así que asegúrese de usar la URL de su proyecto. Los amigos Kagure, Jack, Owen y Finn tienen cada uno su propio proyecto de planes de viaje en:
+
+-   https://github.com/kagure/my-travel-plans.git
+-   https://github.com/jack/my-travel-plans.git
+-   https://github.com/owen/my-travel-plans.git
+-   https://github.com/finn/my-travel-plans.git
