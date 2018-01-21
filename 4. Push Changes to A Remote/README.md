@@ -86,9 +86,19 @@ La página principal del proyecto en GitHub muestra información sobre el reposi
 </div>
 
 Ahora, antes de seguir adelante, revisemos el repositorio local para ver cómo cambió después de presionar.
+
 Ejecute el siguiente comando:
 
 ```bash
 $ git log --oneline --graph --decorate --todo
 ```
-Importante: asegúrese de incluir el `--decorate` y -`-all` flags
+
+*Importante*: asegúrese de incluir el `--decorate` y -`-all` flags
+
+<div class="figure">
+<p align="center">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/4_6.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+La aplicación de terminal que muestra los resultados de ejecutar `git log --oneline --graph --decorate --all`. La nueva rama de seguimiento de origen/maestro ahora existe</p>
+</div>
+
