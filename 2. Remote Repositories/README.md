@@ -8,6 +8,7 @@ Bueno, déjame decirte que enviar por correo electrónico el proyecto de ida y v
 
 > ## :bulb: Utilice siempre ramas de tema ##
 > Recuerde que es increíblemente útil realizar todas sus confirmaciones en **ramas temáticas** (denominadas descriptivamente). Las ramas ayudan a aislar los cambios no relacionados entre sí.
+
 > Por lo tanto, cuando colabora con otros desarrolladores, asegúrese de crear una nueva rama que tenga un nombre descriptivo que describa los cambios que contiene.
 
 <div class="figure">
