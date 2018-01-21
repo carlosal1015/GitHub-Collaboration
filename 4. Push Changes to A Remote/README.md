@@ -28,3 +28,27 @@ Sin embargo, estas confirmaciones solo se encuentran en el repositorio local. To
 <p align="center" class="caption">
 El repositorio remoto no contiene ningún commit, por lo que GitHub muestra la pantalla de configuración del repositorio.</p>
 </div>
+
+Como no hemos enviado ninguna actualización de commits a GitHub, todavía nos muestra la pantalla de configuración para decirnos cómo podemos conectar nuestro repositorio local al repositorio remoto y enviar algunas confirmaciones. Como esta sigue siendo la pantalla de configuración, podemos saber que no hay conmits en el repositorio remoto.
+
+### Comisiones de envío ###
+
+Para enviar confirmaciones locales a un repositorio remoto, debe usar el comando `git push`. Usted proporciona el nombre corto remoto y luego proporciona el nombre de la sucursal que contiene las confirmaciones que desea enviar:`
+
+```bash
+$ git push <remote-shortname> <branch>
+```
+El norme corto de mi control remoto es `origin` y los commits que quiero enviar están en la rama `master`. Así que usaré el siguiente comando para enviar mis confirmaciones al repositorio remoto en GitHub:
+
+```bash
+$ git push origin master
+```
+
+<div class="figure">
+<p align="center">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/4_3.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+La aplicación del terminal que muestra el comando `git push`. Solicita mi nombre de usuario, contraseña (que no se muestra), y luego muestra información sobre lo que está haciendo para enviar las confirmaciones.</p>
+</div>
+
+Hay un par de cosas para notar:
