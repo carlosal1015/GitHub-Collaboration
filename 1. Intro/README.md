@@ -16,5 +16,5 @@
 </a>
 
 <p align="center">
-  <img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_2.png"  width="700">
+  <img src="http://img.youtube.com/vi/SBUOhyXcR1Q/maxresdefault.jpg"  width="600">
 </p>
