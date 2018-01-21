@@ -57,3 +57,45 @@ Hemos hecho lo suficiente buscando ahora. ¡Hagamos algo activo y creemos nuestr
 
 Vamos a necesitar un proyecto de muestra para usar durante este curso para probar el trabajo con repositorios remotos, enviar actualizaciones al repositorio remoto y obtener cambios del repositorio remoto también.
 
+#### PREGUNTA 1 DE 5 ####
+
+¡Si no tienes un proyecto que quieras usar, entonces puedes seguirme!
+
+#### Contenido del archivo README ####
+
+# Travel Destinations
+
+``# Destinos de viaje
+Una aplicación simple para realizar un seguimiento de los destinos que me gustaría visitar.
+``
+
+#### Contenido de archivos HTML ####
+
+Agregue el siguiente contenido al archivo index.html:
+
+``html
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Travels</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="destination-container">
+            <div class="destination" id="florida">
+                <h2>Florida</h2>
+            </div>
+
+            <div class="destination" id="paris">
+                <h2>Paris</h2>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+``
