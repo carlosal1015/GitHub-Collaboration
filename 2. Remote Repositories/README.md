@@ -53,4 +53,12 @@ Un repositorio local se puede conectar a más de un repositorio remoto.
 </p>
 </div>
 
-¿Por qué múltiples mandos a distancia? ¿Por qué querrías tener múltiples repositorios remotos? Veremos esto más adelante pero brevemente, si está trabajando con múltiples desarrolladores, entonces es posible que desee obtener los cambios en los que están trabajando en sus ramas en su proyecto antes de fusionarlos en la rama principal. Es posible que desee hacer esto si desea probar su cambio antes de decidir implementar sus cambios. Otro ejemplo es si tienes un proyecto cuyo código está alojado en Github pero se implementa a través de Git a Heroku. Tendría un control remoto para el maestro y otro para el despliegue. Haga un control remoto Ahora que hemos aprendido sobre el propósito de los repositorios remotos, agreguemos un repositorio remoto a nuestro propio servidor local.
+## ¿Por qué múltiples mandos a distancia? ##
+
+¿Por qué querrías tener múltiples repositorios remotos? Veremos esto más adelante pero brevemente, si está trabajando con múltiples desarrolladores, entonces es posible que desee obtener los cambios en los que están trabajando en sus ramas en su proyecto antes de fusionarlos en la rama principal. Es posible que desee hacer esto si desea probar su cambio antes de decidir implementar sus cambios.
+
+Otro ejemplo es si tienes un proyecto cuyo código está alojado en Github pero se implementa a través de Git a Heroku. Tendría un control remoto para el `master` y otro para el `deployment`.
+
+## Haga un control remoto ##
+
+Ahora que hemos aprendido sobre el propósito de los repositorios remotos, agreguemos un repositorio remoto a nuestro propio servidor local.
