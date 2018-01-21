@@ -41,3 +41,9 @@ h2 {
 
 Ahora comparemos nuestro repositorio local y nuestro repositorio remoto. Solo tenemos tres confirmaciones en nuestro repositorio local:
 
+<div class="figure">
+<p align="center">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/5_1.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+</p>
+</div>
