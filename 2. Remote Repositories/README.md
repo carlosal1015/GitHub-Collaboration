@@ -26,9 +26,16 @@ Git es un sistema de control de versiones distribuidas, lo que significa que no 
 
 Hasta este punto, probablemente solo ha estado trabajando localmente en un repositorio local. Un repositorio remoto es el mismo repositorio de Git como el suyo, pero existe en otro lugar.
 
+[![Video](http://img.youtube.com/vi/414f0ukhOTY/maxresdefault.jpg)](https://www.youtube.com/watch?v=414f0ukhOTY)
+
+<div class="figure">
 <p align="center">
-  <img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_2.png"  width="700">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_2.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+Un repositorio local se puede conectar a más de un repositorio remoto.
 </p>
+</div>
+
 
 Se puede acceder a las formas de acceder a los Remote Remotes de varias maneras: con una ruta URL a un sistema de archivos. Aunque es posible crear un repositorio remoto en su sistema de archivos, es muy raro que se use. Con mucho, la forma más común de acceder a un repositorio remoto es a través de una URL a un repositorio que está fuera de la web. La forma en que podemos interactuar y controlar un repositorio remoto es a través del comando remoto de Git:
 
