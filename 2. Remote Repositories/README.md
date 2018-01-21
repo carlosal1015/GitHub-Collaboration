@@ -11,6 +11,8 @@ Bueno, déjame decirte que enviar por correo electrónico el proyecto de ida y v
 >
 > Por lo tanto, cuando colabora con otros desarrolladores, asegúrese de crear una nueva rama que tenga un nombre descriptivo que describa los cambios que contiene.
 
+[![Video](http://img.youtube.com/vi/AnSlYftJnwA/maxresdefault.jpg)](https://www.youtube.com/watch?v=AnSlYftJnwA)
+
 <div class="figure">
 <p align="center">
 <img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_1.png" width="700" alt="My caption"/></p>
