@@ -28,7 +28,3 @@ $ git remote
 Tampoco está limitado a un solo control remoto. ¡Puedes agregar tantos repositorios remotos como quieras!
 
 ¿Por qué múltiples mandos a distancia? ¿Por qué querrías tener múltiples repositorios remotos? Veremos esto más adelante pero brevemente, si está trabajando con múltiples desarrolladores, entonces es posible que desee obtener los cambios en los que están trabajando en sus ramas en su proyecto antes de fusionarlos en la rama principal. Es posible que desee hacer esto si desea probar su cambio antes de decidir implementar sus cambios. Otro ejemplo es si tienes un proyecto cuyo código está alojado en Github pero se implementa a través de Git a Heroku. Tendría un control remoto para el maestro y otro para el despliegue. Haga un control remoto Ahora que hemos aprendido sobre el propósito de los repositorios remotos, agreguemos un repositorio remoto a nuestro propio servidor local.
-
-<p align="center">
-  <img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_3.png"  width="700">
-</p>
