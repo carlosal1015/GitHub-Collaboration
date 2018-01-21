@@ -236,6 +236,7 @@ Hay un par de cosas que notar sobre el comando que acaba de ejecutar en la líne
     ```bash
     $ git remote add repo-on-GitHub https://github.com/richardkalehoff/RichardsFantasticProject.git
     ```
+    
     3.  En tercer lugar, se agrega la ruta completa al repositorio (es decir, la URL al repositorio remoto en la web)
  
  Ahora usaré `git remote -v` para verificar que he agregado el repositorio remoto correctamente :
@@ -245,3 +246,20 @@ Hay un par de cosas que notar sobre el comando que acaba de ejecutar en la líne
 
 ¡Fantástico! Todo se ve bien. Agregué un enlace a mi repositorio remoto con el comando `git remote add`, y luego verifiqué que todo se veía correcto con `git remote -v`.
 
+#### Resumen ####
+
+Un repositorio remoto es un repositorio similar al que está utilizando pero que simplemente está almacenado en una ubicación diferente. Para administrar un repositorio remoto, use el comando `git remote`:
+
+```bash
+git remote
+```
+
+-   Es posible tener enlaces a múltiples repositorios remotos diferentes.
+-   Un nombre corto es el nombre que se usa para referirse a la ubicación de un repositorio remoto. Normalmente, la ubicación es una URL, pero podría ser una ruta de archivo en la misma computadora.
+-   `git remote add` se usa para agregar una conexión a un nuevo repositorio remoto.
+-   `git remote -v` se usa para ver los detalles sobre una conexión a un control remoto.
+
+#### Investigación adicional ####
+
+-   Trabajar con mandos a distancia desde el libro de Git
+-   el comando `git remote` de los documentos de Git
