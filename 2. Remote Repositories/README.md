@@ -7,7 +7,7 @@ Digamos que tienes un amigo, la llamaremos Laura, y un día ustedes dos estuvier
 Bueno, déjame decirte que enviar por correo electrónico el proyecto de ida y vuelta sería una pesadilla de mantenimiento después de dos correos electrónicos. Ya estás rastreando tu proyecto con Git, así que lo usaremos para administrar todo. Así que Laura trabajará en el proyecto en una sucursal específica y cualquier cambio que haga lo agregará a esa sucursal. Mientras trabaja en su sucursal, trabajará en el proyecto, pero en su propia sucursal específica. Y luego puedes unir estas ramas cuando obtengas la rama de Laura.
 
 > ## :bulb: Utilice siempre ramas de tema ##
-> Recuerde que es increíblemente útil realizar todas sus confirmaciones en **ramas temáticas** (denominadas descriptivamente). Las ramas ayudan a aislar los cambios no relacionados entre sí.
+> Recuerde que es increíblemente útil realizar todas sus confirmaciones en **ramas** **temáticas** (denominadas descriptivamente). Las ramas ayudan a aislar los cambios no relacionados entre sí.
 >
 > Por lo tanto, cuando colabora con otros desarrolladores, asegúrese de crear una nueva rama que tenga un nombre descriptivo que describa los cambios que contiene.
 
