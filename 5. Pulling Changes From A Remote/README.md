@@ -60,10 +60,10 @@ El repositorio remoto en GitHub tiene cuatro commits. Los tres de nuestro reposi
 
 ### Tirando cambios con git pull ###
 
-El commit local terminal en el commit `5a010d1` mientras que el remoto tiene dos confirmaciones adicionales: confirma `4b81b2a` y confirma `b847434`.
+El commit local terminal en el commit `5a010d1` mientras que el remoto tiene dos commit adicionales: commit `4b81b2a` y commit `b847434`.
 
-Además, observe que en nuestro repositorio local, cuando hicimos el `git log`, la rama de `origin/master` aún apunta hacia la confirmación `5a010d1`.
+Además, observe que en nuestro repositorio local, cuando hicimos el `git log`, la rama de `origin/master` aún apunta hacia el commit `5a010d1`.
 
-Recuerde que la rama de `origin/master` no es un mapeo en vivo de donde se encuentra la rama maestra del control remoto. Si el maestro del control remoto se mueve, la rama de `origin/master` local se mantiene igual. Para actualizar esta rama, necesitamos sincronizar los dos juntos.
+Recuerde que la rama de `origin/master` no es un mapeo en vivo de donde se encuentra la rama master del control remoto. Si el master del control remoto se mueve, la rama de `origin/master` local se mantiene igual. Para actualizar esta rama, necesitamos sincronizar los dos juntos.
 
-git push sincronizará el repositorio remoto con el repositorio local. Para hacer con lo contrario (para sincronizar lo local con el control remoto), necesitamos usar git pull. El formato para git pull es muy similar al de git push: proporcionaste el nombre corto para el repositorio remoto y luego el nombre de la rama que deseas extraer en los commits.
+`git push` sincronizará el repositorio remoto con el repositorio local. Para hacer con lo contrario (para sincronizar lo local con el control remoto), necesitamos usar `git pull`. El formato para `git pull es muy similar al de `git push`: proporcionaste el nombre corto para el repositorio remoto y luego el nombre de la rama que deseas extraer en los commits.
