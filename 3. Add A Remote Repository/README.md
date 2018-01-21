@@ -201,4 +201,11 @@ También voy a dejar sin marcar la opción "Inicializar este repositorio con el 
 
 ## :warning: No inicializar con un README :warning: ##
 
-Asegúrese de dejar desactivada la opción "Inicializar este repositorio con el archivo README". Proporcionaremos nuestro propio archivo README, por lo que no queremos que GitHub proporcione uno automáticamente. Además, si permitimos que GitHub genere automáticamente un nuevo archivo README, entonces no se nos proporcionarán los comandos de configuración para ejecutar en el terminal. Todavía es posible obtener esa información, pero estará oculta. Así que solo asegúrate de dejar este campo sin marcar, ¡y estarás listo para empezar! ¡Ahora solo hizo clic en ese gran botón "Crear repositorio" para crear su repositorio remoto!
+Asegúrese de dejar desactivada la opción "Inicializar este repositorio con el archivo README". Proporcionaremos nuestro propio archivo README, por lo que no queremos que GitHub proporcione uno automáticamente.
+
+Además, si permitimos que GitHub genere automáticamente un nuevo archivo README, entonces no se nos proporcionarán los comandos de configuración para ejecutar en el terminal. Todavía es posible obtener esa información, pero estará oculta.
+
+Así que solo asegúrate de dejar este campo sin marcar, ¡y estarás listo para empezar!
+
+¡Ahora solo hizo clic en ese gran botón "Crear repositorio" para crear su repositorio remoto!
+
