@@ -9,10 +9,6 @@
 - Comprometerlos con el repositorio con 
 - compromiso de git necesitas saber sobre ramificación, fusionar ramas y resolver conflictos de combinación y ser capaz de deshacer cosas en Git: git commit --amend para deshacer la confirmación más reciente o cambiar la redacción del mensaje de confirmación y reinicio de git Si te sientes cómodo con todo esto, entonces serás bueno para este curso. Si eres nuevo en el control de versiones o Git, echa un vistazo al control de versiones con el curso de Git.
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/&v=SBUOhyXcR1Q/0.jpg)](https://www.youtube.com/watch?v=&v=SBUOhyXcR1Q)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/SBUOhyXcR1Q/maxresdefault.jpg)](https://www.youtube.com/watch?v=SBUOhyXcR1Q)
 
-https://youtu.be/SBUOhyXcR1Q
-
-https://www.youtube.com/watch?2=
-
-https://img.youtube.com/vi/<youtu.be/SBUOhyXcR1Q>/0.jpg
+https://www.youtube.com/watch?time_continue=55&v=SBUOhyXcR1Q
