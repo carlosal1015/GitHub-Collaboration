@@ -316,9 +316,8 @@ Ahora usaré `git remote -v` para verificar que he agregado el repositorio remot
 Asegurémonos de estar en la misma página. Asegúrese de que puede responder a todos estos:
 
 - [] Creé mi repositorio remoto en GitHub
-- []
-- []
-
+- [] He usado `git remote add` para crear una conexión desde mi repositorio local al repositorio remoto
+- [] He usado `git remote -v` para verificar que el nombre corto esté allí con la URL correcta
 
 #### Resumen ####
 
@@ -335,5 +334,5 @@ git remote
 
 #### Investigación adicional ####
 
--   Trabajar con mandos a distancia desde el libro de Git
--   el comando `git remote` de los documentos de Git
+-   [Trabajar con controles remotos a distancia](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes#_showing_your_remotes) desde el libro de Git
+-   [el comando `git remote`](https://git-scm.com/docs/git-remote) de los documentos de Git
