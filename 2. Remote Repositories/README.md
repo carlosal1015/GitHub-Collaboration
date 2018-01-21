@@ -11,8 +11,8 @@ Bueno, déjame decirte que enviar por correo electrónico el proyecto de ida y v
 Recuerde que es increíblemente útil realizar todas sus confirmaciones en **ramas temáticas** (denominadas descriptivamente). Las ramas ayudan a aislar los cambios no relacionados entre sí. Por lo tanto, cuando colabora con otros desarrolladores, asegúrese de crear una nueva rama que tenga un nombre descriptivo que describa los cambios que contiene.
 
 <div class="figure">
-<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_1.png" width="700" align="center" alt="My caption"  />
-<p class="caption">Un repositorio local es aquel en el que trabaja en su máquina local. Los repositorios remotos viven en otro lugar (por ejemplo, la computadora de un amigo, GitHub, etc.)</p>
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_1.png" width="700" alt="My caption"  />
+<p align="center" class="caption">Un repositorio local es aquel en el que trabaja en su máquina local. Los repositorios remotos viven en otro lugar (por ejemplo, la computadora de un amigo, GitHub, etc.)</p>
 </div>
 
 <p align="center">
