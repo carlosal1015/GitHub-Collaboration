@@ -160,3 +160,45 @@ h2 {
     background-color: #d32f2f;
 }
 ```
+
+En este punto, así es como se ve mi proyecto, pero recuerde que su proyecto puede ser lo que usted quiera, solo necesita asegurarse de tener un proyecto con algunas confirmaciones.
+
+Una aplicación web simple que muestra los destinos a los que quiero ir (Florida y París) se abrió en el navegador Chromium.
+
+#### Alojamiento en GitHub ####
+
+Hay varias opciones para nosotros para alojar proyectos de Git. Pero uno de los sitios de alojamiento más populares es un servicio llamado [GitHub](https://github.com) del que quizás hayas oído hablar antes. Ahora el problema con GitHub es que el nombre es tan similar a Git que a veces las personas confunden a Git y GitHub y piensan que son lo mismo cuando en realidad son bastante diferentes.
+
+-   Git es una herramienta de control de versiones
+-   GitHub es un servicio para alojar proyectos de Git
+
+Si ya está familiarizado con GitHub y sabe cómo crear un repositorio sin inicializar un archivo README, puede omitir este video y seguir adelante y hacer su repositorio con el mismo nombre que su proyecto de muestra, y recuerde no inicializar un archivo readme.
+
+Si todavía no tienes una cuenta, regístrate para obtener una en la página de unirse a GitHub. Hay diferentes tipos de cuentas de GitHub para las que puede suscribirse, pero el nivel gratuito es todo lo que necesitamos para este curso. Y una cuenta gratis es lo que la mayoría de la gente usa de todos modos. Una vez que haya creado su cuenta, inicie sesión en GitHub y estará en la página de inicio:
+
+
+Esto es lo que mi cuenta muestra justo después de iniciar sesión. Su información será diferente dependiendo de la cantidad de repositorios que tenga y de otros usuarios y repositorios que siga.
+
+Al igual que todos los sitios web, GitHub actualiza su interfaz con bastante frecuencia, por lo que si lo que usted dice no se ve exactamente como en la imagen anterior, no se preocupe, las características importantes serán las mismas. Lo importante que debemos analizar en este momento es cómo crear un nuevo repositorio. En realidad, hay dos formas de hacerlo desde la página de inicio:
+
+-   de la barra de navegación
+-   el botón verde "nuevo repositorio" parte de la página en el lado derecho
+
+GitHub tiene dos ubicaciones donde puedes crear un nuevo repositorio. El icono más ubicado en el encabezado de la página y el botón "Nuevo repositorio" en el medio de la página.
+
+
+Utilizo el botón en la barra de navegación porque la barra de navegación está disponible en cada página, lo que facilita el acceso al nuevo enlace de repositorio.
+
+En el menú desplegable, el enlace `new repository` lo lleva a la página de creación del repositorio. Solo necesitamos completar un campo de esta forma: el campo de nombre del repositorio.
+
+GitHub crea una nueva página de repositorio. El único campo obligatorio es el campo de `Repository name`.
+
+Normalmente, desea utilizar el nombre de su proyecto como el nombre del repositorio. Crear un repositorio, modificarlo más tarde o eliminarlo es relativamente fácil, así que no sienta que tiene que obtener el nombre perfecto aquí en esta página. Voy a crear un repositorio llamado "my-travel-plans" que es el mismo nombre que el proyecto de muestra que creé.
+
+Está bien dejar la descripción vacía por el momento (aunque puede proporcionar una si lo desea). Como estoy en el plan de niveles gratuito, mi repositorio debe ser público (lo que significa que mi repositorio y todo mi código estarán disponibles de forma gratuita para que cualquiera pueda verlos). Si quiero que sea un repositorio privado, elegiría "Privado", lo que provocará que GitHub solicite la información de mi tarjeta de crédito y también me actualizará a un plan pago.
+
+También voy a dejar sin marcar la opción "Inicializar este repositorio con el archivo README" porque no quiero que GitHub agregue un archivo README para mí.
+
+## :copyleft: No inicializar con un README ##
+
+Asegúrese de dejar desactivada la opción "Inicializar este repositorio con el archivo README". Proporcionaremos nuestro propio archivo README, por lo que no queremos que GitHub proporcione uno automáticamente. Además, si permitimos que GitHub genere automáticamente un nuevo archivo README, entonces no se nos proporcionarán los comandos de configuración para ejecutar en el terminal. Todavía es posible obtener esa información, pero estará oculta. Así que solo asegúrate de dejar este campo sin marcar, ¡y estarás listo para empezar! ¡Ahora solo hizo clic en ese gran botón "Crear repositorio" para crear su repositorio remoto!
