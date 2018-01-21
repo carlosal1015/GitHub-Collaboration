@@ -14,3 +14,5 @@
 https://youtu.be/SBUOhyXcR1Q
 
 https://www.youtube.com/watch?2=
+
+https://img.youtube.com/vi/<youtu.be/SBUOhyXcR1Q>/0.jpg
