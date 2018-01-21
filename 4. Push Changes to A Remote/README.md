@@ -51,4 +51,14 @@ $ git push origin master
 La aplicación del terminal que muestra el comando `git push`. Solicita mi nombre de usuario, contraseña (que no se muestra), y luego muestra información sobre lo que está haciendo para enviar las confirmaciones.</p>
 </div>
 
-Hay un par de cosas para notar:
+Aquí un par de cosas para notar:
+
+Dependiendo de cómo haya configurado GitHub y la URL remota que se está utilizando, es posible que deba ingresar su nombre de usuario y contraseña. esto sucederá si usa la versión HTTP del control remoto (en lugar de la versión ssh) Si ha configurado GitHub para usar el protocolo SSH y lo ha proporcionado con su clave SSH, entonces no necesita preocuparse por seguir este paso. Consulte la página de Conexión a GitHub con la documentación de SSH si está interesado en usar SSH con GitHub. Si tiene que ingresar su nombre de usuario y contraseña, su nombre de usuario aparecerá después de escribir pero su contraseña no lo hará. Así que sigue escribiendo tu contraseña y presiona intro cuando hayas terminado. Si encuentra algún error con su contraseña, no se preocupe, solo le pedirá que la ingrese de nuevo Git comprime algo para hacerlo más pequeño y luego lo envía al control remoto Se crea una nueva rama: en la parte inferior dice [nueva rama] y luego master -> master Ahora veamos GitHub:
+
+<div class="figure">
+<p align="center">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/4_4.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+</p>
+</div>
+
