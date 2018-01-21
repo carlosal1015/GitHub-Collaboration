@@ -13,5 +13,5 @@
 
 
 <p align="center">
-  <img src="[![Video](http://img.youtube.com/vi/SBUOhyXcR1Q/maxresdefault.jpg)](https://www.youtube.com/watch?v=SBUOhyXcR1Q)"  width="700">
+  <img src="[![Video](http://img.youtube.com/vi/SBUOhyXcR1Q/maxresdefault.jpg)](https://www.youtube.com/watch?v=SBUOhyXcR1Q)"  width="500">
 </p>
