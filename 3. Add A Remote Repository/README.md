@@ -209,3 +209,5 @@ Así que solo asegúrate de dejar este campo sin marcar, ¡y estarás listo para
 
 ¡Ahora solo hizo clic en ese gran botón "Crear repositorio" para crear su repositorio remoto!
 
+[![Video](http://img.youtube.com/vi/myuGLZLYpYY/maxresdefault.jpg)](https://www.youtube.com/watch?v=myuGLZLYpYY)
+
