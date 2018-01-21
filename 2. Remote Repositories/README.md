@@ -37,9 +37,9 @@ Aunque es posible crear un repositorio remoto en su sistema de archivos, es muy 
 
 La forma en que podemos interactuar y controlar un repositorio remoto es a través del comando remoto de Git:
 
-``
+```
 $ git remote
-``
+```
 
 [![Video](http://img.youtube.com/vi/414f0ukhOTY/maxresdefault.jpg)](https://www.youtube.com/watch?v=414f0ukhOTY)
 
