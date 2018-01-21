@@ -13,6 +13,12 @@ Bueno, déjame decirte que enviar por correo electrónico el proyecto de ida y v
 
 [![Video](http://img.youtube.com/vi/AnSlYftJnwA/maxresdefault.jpg)](https://www.youtube.com/watch?v=AnSlYftJnwA)
 
+## ¿Qué es un repositorio remoto? ##
+
+Git es un sistema de control de versiones distribuidas, lo que significa que no hay un repositorio principal de información. Cada desarrollador tiene una copia del repositorio. Para que pueda tener una copia del repositorio (que incluye los commits publicados y el historial de versiones) y su amigo también puede tener una copia del mismo repositorio. Cada repositorio tiene exactamente la misma información que los demás, no hay un único repositorio que sea el principal.
+
+Hasta este punto, probablemente solo ha estado trabajando localmente en un repositorio local. Un repositorio remoto es el mismo repositorio de Git como el suyo, pero existe en otro lugar.
+
 <div class="figure">
 <p align="center">
 <img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/2_1.png" width="700" alt="My caption"/></p>
@@ -20,13 +26,24 @@ Bueno, déjame decirte que enviar por correo electrónico el proyecto de ida y v
 Un repositorio local es aquel en el que trabaja en su máquina local. Los repositorios remotos viven en otro lugar (por ejemplo, la computadora de un amigo, GitHub, etc.)</p>
 </div>
 
-## ¿Qué es un repositorio remoto? ##
+## Maneras de acceder a un control remoto ##
 
-Git es un sistema de control de versiones distribuidas, lo que significa que no hay un repositorio principal de información. Cada desarrollador tiene una copia del repositorio. Para que pueda tener una copia del repositorio (que incluye los commits publicados y el historial de versiones) y su amigo también puede tener una copia del mismo repositorio. Cada repositorio tiene exactamente la misma información que los demás, no hay un único repositorio que sea el principal.
+Se puede acceder de forma remota de un par de maneras:
 
-Hasta este punto, probablemente solo ha estado trabajando localmente en un repositorio local. Un repositorio remoto es el mismo repositorio de Git como el suyo, pero existe en otro lugar.
+- con una URL.
+- con una camino al sistema de archivos.
+
+Aunque es posible crear un repositorio remoto en su sistema de archivos, es muy raro que se use. Con mucho, la forma más común de acceder a un repositorio remoto es a través de una URL a un repositorio que está fuera de la web.
+
+La forma en que podemos interactuar y controlar un repositorio remoto es a través del comando remoto de Git:
+
+``
+$ git remote
+``
 
 [![Video](http://img.youtube.com/vi/414f0ukhOTY/maxresdefault.jpg)](https://www.youtube.com/watch?v=414f0ukhOTY)
+
+Tampoco está limitado a un solo control remoto. ¡Puedes agregar tantos repositorios remotos como quieras!
 
 <div class="figure">
 <p align="center">
@@ -35,13 +52,5 @@ Hasta este punto, probablemente solo ha estado trabajando localmente en un repos
 Un repositorio local se puede conectar a más de un repositorio remoto.
 </p>
 </div>
-
-
-Se puede acceder a las formas de acceder a los Remote Remotes de varias maneras: con una ruta URL a un sistema de archivos. Aunque es posible crear un repositorio remoto en su sistema de archivos, es muy raro que se use. Con mucho, la forma más común de acceder a un repositorio remoto es a través de una URL a un repositorio que está fuera de la web. La forma en que podemos interactuar y controlar un repositorio remoto es a través del comando remoto de Git:
-
-``
-$ git remote
-``
-Tampoco está limitado a un solo control remoto. ¡Puedes agregar tantos repositorios remotos como quieras!
 
 ¿Por qué múltiples mandos a distancia? ¿Por qué querrías tener múltiples repositorios remotos? Veremos esto más adelante pero brevemente, si está trabajando con múltiples desarrolladores, entonces es posible que desee obtener los cambios en los que están trabajando en sus ramas en su proyecto antes de fusionarlos en la rama principal. Es posible que desee hacer esto si desea probar su cambio antes de decidir implementar sus cambios. Otro ejemplo es si tienes un proyecto cuyo código está alojado en Github pero se implementa a través de Git a Heroku. Tendría un control remoto para el maestro y otro para el despliegue. Haga un control remoto Ahora que hemos aprendido sobre el propósito de los repositorios remotos, agreguemos un repositorio remoto a nuestro propio servidor local.
