@@ -102,6 +102,19 @@ $ git log --oneline --graph --decorate --todo
 La aplicación de terminal que muestra los resultados de ejecutar `git log --oneline --graph --decorate --all`. La nueva rama de seguimiento de origen/maestro ahora existe</p>
 </div>
 
-¡Ahora tenemos un nuevo marcador en la salida! Este marcador es `origin/master` y se denomina **ramal de seguimiento**. El nombre de una rama de seguimiento incluye el nombre corto del repositorio remoto, así como el nombre de la sucursal. Por lo tanto, el `origin/master` de la rama de seguimiento nos dice que el origen remoto tiene una rama maestra que apunta a confirmar `9b7d28f` (e incluye todas las confirmaciones antes de `9b7d28f`). Esto es realmente útil porque esto significa que podemos rastrear la información del repositorio remoto aquí mismo en nuestro local.
+¡Ahora tenemos un nuevo marcador en la salida! Este marcador es `origin/master` y se denomina **ramal de seguimiento**. El nombre de una rama de seguimiento incluye el nombre corto del repositorio remoto, así como el nombre de la sucursal. Por lo tanto, el `origin/master` de la rama de seguimiento nos dice que el origen remoto tiene una rama maestra que apunta a confirmar `9b7d28f` (e incluye todas las confirmaciones antes de `9b7d28f`). ¡Esto es realmente útil porque esto significa que podemos rastrear la información del repositorio remoto aquí mismo en nuestro local!
 
 Una cosa muy importante que debe saber es que esta rama de rastreo de `origin/master` no es una representación en vivo de dónde existe la rama en el repositorio remoto. Si un cambio se realiza en el repositorio remoto no por nosotros, sino por otra persona, la rama de seguimiento de `origin/master` en nuestro repositorio local no se moverá. Tenemos que decirle que busque las actualizaciones y luego se moverá. Veremos cómo hacer esto en la siguiente sección.
+
+### Resumen ###
+
+El comando `git push` se usa para enviar confirmaciones desde un repositorio local a un repositorio remoto.
+
+```bash
+$ git push origin master
+```
+
+El comando `git push` toma:
+
+- el nombre corto del repositorio remoto que desea enviar confirma
+- el nombre de la rama que tiene los commits que desea enviar
