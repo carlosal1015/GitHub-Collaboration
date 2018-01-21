@@ -66,4 +66,4 @@ Además, observe que en nuestro repositorio local, cuando hicimos el `git log`, 
 
 Recuerde que la rama de `origin/master` no es un mapeo en vivo de donde se encuentra la rama master del control remoto. Si el master del control remoto se mueve, la rama de `origin/master` local se mantiene igual. Para actualizar esta rama, necesitamos sincronizar los dos juntos.
 
-`git push` sincronizará el repositorio remoto con el repositorio local. Para hacer con lo contrario (para sincronizar lo local con el control remoto), necesitamos usar `git pull`. El formato para `git pull es muy similar al de `git push`: proporcionaste el nombre corto para el repositorio remoto y luego el nombre de la rama que deseas extraer en los commits.
+`git push` sincronizará el repositorio remoto con el repositorio local. Para hacer con lo contrario (para sincronizar lo local con el control remoto), necesitamos usar `git pull`. El formato para `git pull` es muy similar al de `git push`: proporcionaste el nombre corto para el repositorio remoto y luego el nombre de la rama que deseas extraer en los commits.
