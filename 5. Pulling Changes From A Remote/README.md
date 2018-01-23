@@ -67,3 +67,43 @@ Además, observe que en nuestro repositorio local, cuando hicimos el `git log`, 
 Recuerde que la rama de `origin/master` no es un mapeo en vivo de donde se encuentra la rama master del control remoto. Si el master del control remoto se mueve, la rama de `origin/master` local se mantiene igual. Para actualizar esta rama, necesitamos sincronizar los dos juntos.
 
 `git push` sincronizará el repositorio remoto con el repositorio local. Para hacer con lo contrario (para sincronizar lo local con el control remoto), necesitamos usar `git pull`. El formato para `git pull` es muy similar al de `git push`: proporcionaste el nombre corto para el repositorio remoto y luego el nombre de la rama que deseas extraer en los commits.
+
+```bash
+$ git pull origin master
+```
+
+<div class="figure">
+<p align="center">
+<img src="https://github.com/carlosal1015/GitHub-Collaboration/blob/master/images/5_3.png" width="700" alt="My caption"/></p>
+<p align="center" class="caption">
+Ejecutando `git pull origin master` recuperará las confirmaciones de la rama `master` en el repositorio remoto `origin`.
+</p>
+</div>
+
+Hay varias cosas que se deben tener en cuenta al ejecutar este comando:
+
+- el formato es muy similar al de `git push`: cuenta, comprime y empaqueta artículos
+
+- tiene la frase "avance rápido", lo que significa que Git hizo una fusión rápida (profundizaremos en esto en solo un segundo)
+
+    - muestra información similar a `git log --stat` donde muestra los archivos que se han cambiado y cuántas líneas se agregaron o eliminaron en ellos.
+
+Si no quiere fusionar automáticamente la rama local con la rama de seguimiento, entonces no usaría `git pull`, sino que usaría un comando diferente llamado `git fetch`. Es posible que desee hacer esto si hay commits en el repositorio que no tiene, pero también hay commits en el repositorio local que el remoto tampoco tiene.
+
+Echemos un vistazo a `git fetch`.
+
+## Resumen ##
+
+Si hay cambios en un repositorio remoto que desea incluir en su repositorio local, entonces desea *incorporar* esos cambios. Para hacer eso con Git, usarías el comando `git pull`. Le dices a Git el nombre corto del control remoto del que deseas obtener los cambios y luego la rama que tiene los cambios que deseas:
+
+```bash
+$ git pull origin master
+```
+
+Cuando se ejecuta `git pull`, suceden las siguientes cosas:
+
+- la(s) confirmación(es) en la rama remota se copian en el repositorio local
+- la rama de seguimiento local `(origin/master)` se mueve para señalar el commit más reciente
+- la rama de seguimiento local `(origin/master)` se fusiona en la rama local (`master`)
+
+Además, los cambios se pueden agregar manualmente en GitHub (pero esto no se recomienda, así que no lo haga).
