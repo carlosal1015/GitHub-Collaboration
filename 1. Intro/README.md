@@ -10,22 +10,13 @@
 - Necesitas saber sobre ramificación, fusionar ramas y resolver conflictos de combinación y ser capaz de deshacer cosas en Git:
   - `git commit --amend` para deshacer la confirmación más reciente o cambiar la redacción del mensaje de confirmación
   - y `git reset` Si te sientes cómodo con todo esto, entonces serás bueno para este curso.
-  
+
 Si eres nuevo en el control de versiones o Git, echa un vistazo al [control de versiones con el curso de Git](https://www.udacity.com/course/version-control-with-git--ud123).
 
-[![Video](http://img.youtube.com/vi/SBUOhyXcR1Q/maxresdefault.jpg)](https://www.youtube.com/watch?v=SBUOhyXcR1Q)
-
-<a href="https://www.youtube.com/watch?v=SBUOhyXcR1Q">
-  <img src="http://img.youtube.com/vi/SBUOhyXcR1Q/maxresdefault.jpg" width="200" />
-</a>
 
 <p align="center">
-  <href="https://www.youtube.com/watch?v=SBUOhyXcR1Q">
-  <img src="http://img.youtube.com/vi/SBUOhyXcR1Q/maxresdefault.jpg"  width="600"/>
+<a href="https://www.youtube.com/watch?v=SBUOhyXcR1Q">
+  <img src="http://img.youtube.com/vi/SBUOhyXcR1Q/maxresdefault.jpg" width="600"/>
+  A
+</a>  
 </p>
-
-<div style="margin: 0 auto; text-align: center">
-    <a href="https://www.youtube.com/watch?v=SBUOhyXcR1Q" 
-    id="cc_strinfo_song_tranceilfm" class="cc_streaminfo" 
-    style="margin: 0px; display:block;">Loading...</a>
-</div>
